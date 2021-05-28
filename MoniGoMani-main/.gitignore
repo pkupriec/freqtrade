@@ -12,3 +12,6 @@ workspace.code-workspace
 # Ignore Logo Folder
 Logo/
 Some Test Results/
+user_data/logs/
+user_data/data/
+.log
