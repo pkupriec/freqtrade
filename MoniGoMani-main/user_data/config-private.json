@@ -1,0 +1,62 @@
+{
+    "exchange": {
+        "name": "binance",
+        "key": "key",
+        "secret": "secret",
+        "ccxt_config": {"enableRateLimit": true},
+        "ccxt_async_config": {
+            "enableRateLimit": true,
+            "rateLimit": 200
+        },
+        "pair_whitelist": [
+			"ETH/BTC",
+			"MATIC/BTC",
+			"ADA/BTC",
+			"XRP/BTC",
+			"LINK/BTC",
+			"DOT/BTC",
+			"EOS/BTC",
+			"ENJ/BTC",
+			"DOGE/BTC",
+			"LTC/BTC",
+			"SOL/BTC",
+			"VET/BTC",
+			"ETC/BTC",
+			"CHZ/BTC",
+			"WBTC/BTC"
+        ],
+        "pair_blacklist": [
+            ".*DOWN/BTC",
+            ".*UP/BTC",
+            ".*DOWN/ETH",
+            ".*UP/ETH",
+            ".*DOWN/USDT",
+            ".*UP/USDT",
+            ".*DOWN/BNB",
+            ".*UP/BNB",
+            ".*/BNB",
+            "BNB/.*",
+            ".*_PREMIUM",
+            ".*PERP",
+            ".*BULL/.*",
+            ".*BEAR/.*",
+            ".*BULL2021/.*",
+            ".*BEAR2021/.*"
+        ]
+    },
+    "telegram": {
+        "enabled": true,
+        "token": "1741664511:AAHYCUU-J4zvN0U14Io2go5GQniriYrMk9I",
+        "chat_id": "486531815"
+    },
+    "api_server": {
+        "enabled": true,
+        "listen_ip_address": "0.0.0.0",
+        "listen_port": 8080,
+        "verbosity": "info",
+        "jwt_secret_key": "",
+        "CORS_origins": ["http://localhost:8080"],
+        "username": "admin",
+        "password": "admin"
+    }
+}
