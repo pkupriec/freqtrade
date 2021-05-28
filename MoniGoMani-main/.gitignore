@@ -1,0 +1,17 @@
+# Ignore Release Template
+ReleaseTemplate.md
+# Ignore Python Caches
+user_data/hyperopts/__pycache__/
+user_data/strategies/__pycache__/
+Legacy MoniGoMani/user_data/hyperopts/__pycache__/
+Legacy MoniGoMani/user_data/strategies/__pycache__/
+# Ignore VSCodium Workspace
+workspace.code-workspace
+# Ignore JetBrains .idea Folder
+.idea/
+# Ignore Logo Folder
+Logo/
+Some Test Results/
+user_data/logs/
+user_data/data/
+.log
