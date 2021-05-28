@@ -1,0 +1,21 @@
+{
+  "exchange": {
+    "pair_whitelist": [
+      "ETH/BTC",
+      "MATIC/BTC",
+      "ADA/BTC",
+      "XRP/BTC",
+      "LINK/BTC",
+      "DOT/BTC",
+      "EOS/BTC",
+      "ENJ/BTC",
+      "DOGE/BTC",
+      "LTC/BTC",
+      "SOL/BTC",
+      "VET/BTC",
+      "ETC/BTC",
+      "CHZ/BTC",
+      "WBTC/BTC"
+    ]
+  }
+}

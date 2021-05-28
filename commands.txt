@@ -1,0 +1,6 @@
+sudo docker-compose run freqtrade backtesting -c ./user_data/config-btc.json -c ./user_data/config-private.json -s MoniGoManiHyperStrategy --timerange 20210302-20210310
+
+sudo docker-compose run freqtrade download-data -c ./user_data/config-btc.json -c ./user_data/config-private.json --timerange 20210301- -t15m
+
+
+sudo docker-compose run freqtrade hyperopt -c ./user_data/config-btc.json -c ./user_data/config-private.json --hyperopt-loss WinRatioAndProfitRatioLoss --spaces all -s MoniGoManiHyperStrategy -e 1000 --timerange 20210520-
